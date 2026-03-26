@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 8px 0 0 8px;
+  font-size: 3rem;
+}
+
+h2 {
+  margin: 0 0 8px 0;
+  font-size: 2.2rem;
+}
+
+.app {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.plants-section {
+  flex: 1;
+}
+
+.plants-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+}
+
+.plant-card {
+  border: 1px solid #ddd;
+  padding: 18px;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.plant-image {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.plant-card h3 {
+  margin: 8px 0;
+  font-size: 1.2rem;
+}
+
+.plant-card button {
+  width: 100%;
+  padding: 6px;
+  font-size: 1rem;
+}
+
+.cart-section {
+  width: 260px;
+}
+
+.cart-section p {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  font-size: 2rem;
+}
+
+.cart-item-details h3 {
+  margin: 6px 0 4px 0;
+  font-size: 1.1rem;
+}
+
+.cart-item-details p {
+  margin: 0 0 8px 0;
+}
+
+.cart-item-buttons {
+  display: flex;
+  gap: 6px;
+}
+
+.cart-item-buttons button {
+  padding: 4px 10px;
+}
